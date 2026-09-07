@@ -1,7 +1,8 @@
 //File: AreaProgram.java
 import java.util.Scanner;
 
-/** This program uses user input to calculate the area of different geometric shapes.
+/** 
+ * This program uses user input to calculate the area of different geometric shapes.
  */
 public class AreaProgram {
 	public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class AreaProgram {
                 "=== AREA CALCULATOR ===\n1. Square\n2. Circle\n3. Triangle\n4. Exit\n");
 			System.out.print("Enter the desired option[1-4]: ");
 			option = keyboard.nextInt();
-
+              // Read user input for Square, Circle, or Triangle and calculate the area accordingly
             if (option ==1) {
                 System.out.print("Enter the length of the sides of square: ");
                 double side = keyboard.nextDouble();
